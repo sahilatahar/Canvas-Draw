@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Draw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="toolbar">
+            <div class="tool colors">
+                <div class="color" style="--color: #F44336"></div>
+                <div class="color" style="--color: #FF5722"></div>
+                <div class="color" style="--color: #FF69B4 "></div>
+                <div class="color" style="--color: #FFA07A"></div>
+                <div class="color" style="--color: #00BFFF"></div>
+                <div class="color" style="--color: #9B59B6 "></div>
+                <div class="color" style="--color: #FFDB58 "></div>
+                <div class="color" style="--color: #1ABC9C"></div>
+                <div class="color" style="--color: #008080"></div>
+                <div class="color" style="--color: #607D8B"></div>
+                <div class="color" style="--color: #795548"></div>
+                <div class="color" style="--color: #333333"></div>
+            </div>
+            <div class="tool d-flex">
+                <input type="color" name="color" id="custom-color">
+                <input type="number" name="width" id="stroke-width" value="5">
+            </div>
+            <div class="tool">
+                <input type="button" value="Save" id="save">
+            </div>
+
+            <div class="tool">
+                <input type="button" value="Clear" id="clear">
+                <input type="button" value="Reset" id="reset">
+            </div>
+        </header>
+        <section class="section">
+            <canvas id="canvas"></canvas>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
