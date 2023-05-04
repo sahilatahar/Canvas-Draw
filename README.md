@@ -1,7 +1,7 @@
 # Canvas Draw Project
 
-This project is a simple drawing website built using HTML5 canvas. It allows users to draw a blank canvas with diffrent colors.
-
+This project is a simple drawing website built using HTML5 canvas. It allows users to draw a blank canvas with different colors.
+### [Live Preview](https://sahilatahar.github.io/Canvas-Draw)
 ## Purpose
 
 This project was created for learning purposes. As a beginner in web development, I wanted to practice my HTML, CSS, and JavaScript skills by building a simple application that utilizes the HTML5 canvas element.
