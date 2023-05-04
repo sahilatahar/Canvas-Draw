@@ -1,6 +1,6 @@
 # Canvas Draw Project
 
-This project is a simple drawing website built using HTML5 canvas. It allows users to draw lines, shapes, and text on a blank canvas.
+This project is a simple drawing website built using HTML5 canvas. It allows users to draw a blank canvas with diffrent colors.
 
 ## Purpose
 
